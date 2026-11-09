@@ -1,0 +1,236 @@
+<!doctype html>
+<!-- IHM locale Leboncoin Alertes : console de collecte et d'analyse IA. -->
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Leboncoin Alertes — Console</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">LB</span>
+        <div class="brand-txt">
+          <h1>Leboncoin Alertes</h1>
+          <p class="brand-sub">Veille d'annonces &amp; analyse par IA locale</p>
+        </div>
+      </div>
+
+      <div class="statusbar" id="statusbar">
+        <span class="chip" id="chip-collector">
+          <span class="dot dot-off" id="collector-dot"></span>
+          <span id="collector-status">État du collecteur…</span>
+        </span>
+        <span class="chip" id="chip-next">
+          Prochaine exécution&nbsp;: <span id="next-run">—</span>
+          <span class="muted" id="countdown"></span>
+        </span>
+        <span class="chip" id="chip-ai">
+          IA&nbsp;: <span id="ai-model">—</span>
+          <span class="dot dot-off dot-sm" id="ai-dot"></span>
+        </span>
+        <button class="chip chip-warn" id="chip-telegram" type="button" hidden>
+          Telegram non configuré
+        </button>
+      </div>
+    </header>
+
+    <div class="api-error" id="api-error" role="status" hidden>
+      API injoignable — dernières données affichées.
+    </div>
+
+    <nav class="tabs" id="tabs" role="tablist" aria-label="Navigation"></nav>
+
+    <main class="panels" id="panels">
+      <!-- Panneaux de recherche injectés dynamiquement avant ceux-ci. -->
+
+      <section class="panel" id="panel-collector" role="tabpanel" hidden>
+        <div class="grid grid-cards">
+          <div class="card">
+            <h2 class="card-title">Job de collecte</h2>
+            <dl class="kv">
+              <div><dt>Statut</dt><dd id="c-status">—</dd></div>
+              <div><dt>Dernière exécution</dt><dd id="c-last">—</dd></div>
+              <div><dt>Prochaine exécution</dt><dd id="c-next">—</dd></div>
+              <div><dt>Fréquence</dt><dd id="c-interval">—</dd></div>
+              <div><dt>Dernier résultat</dt><dd id="c-result">—</dd></div>
+            </dl>
+            <div class="actions">
+              <button class="btn btn-primary" id="btn-run-now" type="button">
+                Lancer maintenant
+              </button>
+              <button class="btn" id="btn-toggle" type="button">Arrêter</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">Fréquence de collecte</h2>
+            <p class="muted card-note">
+              Intervalle entre deux collectes complètes, 30 minutes minimum.
+            </p>
+            <div class="field-row">
+              <label class="field">
+                <span>Intervalle (minutes)</span>
+                <input type="number" id="interval-input" min="30" step="1" value="90" />
+              </label>
+              <button class="btn" id="btn-interval" type="button">Enregistrer</button>
+            </div>
+            <div class="kv kv-inline">
+              <div><dt>Collecteur démarré</dt><dd id="c-started">—</dd></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-log">
+          <div class="card-head">
+            <h2 class="card-title">Journal</h2>
+            <div class="card-head-actions">
+              <span class="muted" id="log-info">300 dernières lignes</span>
+              <button class="btn btn-ghost" id="btn-log-refresh" type="button">
+                Rafraîchir
+              </button>
+            </div>
+          </div>
+          <div class="log" id="log" tabindex="0" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="panel" id="panel-directives" role="tabpanel" hidden>
+        <div class="card">
+          <h2 class="card-title">Directives IA</h2>
+          <p class="muted card-note">
+            Instructions transmises à l'IA locale pour juger chaque annonce.
+            Les directives d'une recherche s'ajoutent aux directives globales.
+          </p>
+          <label class="field field-text">
+            <span>Directives globales</span>
+            <textarea id="dir-global" rows="10"
+              placeholder="Ex. : ne retenir que les cartes graphiques seules, écarter les PC complets…"></textarea>
+          </label>
+          <div id="dir-searches"></div>
+          <div class="actions">
+            <button class="btn btn-primary" id="btn-dir-save" type="button">
+              Enregistrer les directives
+            </button>
+            <button class="btn btn-ghost" id="btn-dir-reload" type="button">
+              Recharger
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="panel-settings" role="tabpanel" hidden>
+        <div class="grid grid-cards">
+          <div class="card">
+            <h2 class="card-title">Collecte</h2>
+            <div class="field-row">
+              <label class="field">
+                <span>Intervalle (minutes)</span>
+                <input type="number" id="set-interval" min="30" step="1" value="90" />
+              </label>
+              <button class="btn" id="btn-set-interval" type="button">Enregistrer</button>
+            </div>
+            <dl class="kv">
+              <div><dt>Statut</dt><dd id="set-c-status">—</dd></div>
+              <div><dt>Prochaine exécution</dt><dd id="set-c-next">—</dd></div>
+            </dl>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">IA locale</h2>
+            <dl class="kv">
+              <div><dt>Statut</dt><dd id="set-ai-enabled">—</dd></div>
+              <div><dt>Modèle</dt><dd id="set-ai-model">—</dd></div>
+              <div><dt>Serveur</dt><dd id="set-ai-url">—</dd></div>
+              <div><dt>Accessibilité</dt><dd id="set-ai-reach">—</dd></div>
+              <div><dt>Analyse automatique</dt><dd id="set-ai-auto">—</dd></div>
+            </dl>
+            <div class="actions">
+              <button class="btn" id="btn-test-ai" type="button">Tester l'IA</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">Notifications</h2>
+            <dl class="kv">
+              <div><dt>Telegram</dt><dd id="set-tg">—</dd></div>
+            </dl>
+            <div class="actions">
+              <button class="btn" id="btn-test-telegram" type="button">
+                Tester Telegram
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="toasts" id="toasts" aria-live="polite"></div>
+
+    <template id="tpl-search-panel">
+      <section class="panel panel-search" role="tabpanel" hidden>
+        <div class="panel-head">
+          <div class="filters">
+            <div class="segmented" role="group" aria-label="Filtre de verdict">
+              <button class="seg is-active" type="button" data-filter="all">Tous</button>
+              <button class="seg" type="button" data-filter="retenu">Retenues</button>
+              <button class="seg" type="button" data-filter="rejete">Écartées</button>
+              <button class="seg" type="button" data-filter="inconnu">Non analysées</button>
+            </div>
+            <input
+              type="search"
+              class="q"
+              placeholder="Rechercher dans les annonces…"
+              aria-label="Recherche texte"
+            />
+            <button class="btn btn-ai" type="button" data-action="analyze-pending">
+              Analyser les non analysées
+            </button>
+          </div>
+          <div class="counts muted"></div>
+        </div>
+        <div class="ads"></div>
+        <p class="empty" hidden>Aucune annonce ne correspond à ce filtre.</p>
+      </section>
+    </template>
+
+    <template id="tpl-ad-card">
+      <article class="ad">
+        <div class="ad-head">
+          <h3 class="ad-title"></h3>
+          <div class="ad-price"></div>
+        </div>
+        <div class="ad-tags">
+          <span class="badge badge-unknown"></span>
+          <span class="tag tag-src" hidden></span>
+          <span class="tag tag-new" hidden>Nouvelle</span>
+        </div>
+        <p class="ad-reason" hidden></p>
+        <p class="ad-body"></p>
+        <div class="ad-foot">
+          <span class="muted ad-seller"></span>
+          <span class="muted ad-loc"></span>
+          <span class="muted ad-date"></span>
+        </div>
+        <div class="ad-actions">
+          <a class="btn ad-link" target="_blank" rel="noopener noreferrer">Annonce ↗</a>
+          <button class="btn" type="button" data-action="analyze">Analyser</button>
+          <div class="menu">
+            <button class="btn btn-ghost" type="button" data-action="menu">
+              Verdict manuel ▾
+            </button>
+            <div class="menu-items" hidden>
+              <button type="button" data-verdict="retenu">Retenue</button>
+              <button type="button" data-verdict="rejete">Écartée</button>
+              <button type="button" data-verdict="none">Effacer le verdict</button>
+            </div>
+          </div>
+          <button class="btn btn-ghost" type="button" data-action="more">voir plus</button>
+        </div>
+      </article>
+    </template>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

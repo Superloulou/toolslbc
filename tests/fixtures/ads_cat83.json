@@ -1,0 +1,1420 @@
+{
+ "total": 241,
+ "max_pages": 7,
+ "ads": [
+  {
+   "list_id": 3296282602,
+   "first_publication_date": "2026-10-27 11:28:16",
+   "index_date": "2026-10-27 11:28:16",
+   "status": "active",
+   "category_id": "83",
+   "category_name": "Accessoires informatique",
+   "subject": "Rtx 3090 fe",
+   "body": "",
+   "brand": "leboncoin",
+   "ad_type": "offer",
+   "url": "https://www.leboncoin.fr/ad/accessoires_informatique/3296282602",
+   "price": [
+    1000
+   ],
+   "price_cents": 100000,
+   "images": {
+    "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/d1/d9/23/d1d923b9d2f890074c95709105f22ab29245a4a7.jpg?rule=ad-thumb",
+    "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/d1/d9/23/d1d923b9d2f890074c95709105f22ab29245a4a7.jpg?rule=ad-small",
+    "nb_images": 1,
+    "urls": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/d1/d9/23/d1d923b9d2f890074c95709105f22ab29245a4a7.jpg?rule=ad-image"
+    ],
+    "urls_thumb": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/d1/d9/23/d1d923b9d2f890074c95709105f22ab29245a4a7.jpg?rule=ad-thumb"
+    ],
+    "urls_large": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/d1/d9/23/d1d923b9d2f890074c95709105f22ab29245a4a7.jpg?rule=ad-large"
+    ]
+   },
+   "attributes": [
+    {
+     "key": "rating_score",
+     "value": "1",
+     "values": [
+      "1"
+     ],
+     "value_label": "1",
+     "generic": false
+    },
+    {
+     "key": "rating_count",
+     "value": "3",
+     "values": [
+      "3"
+     ],
+     "value_label": "3",
+     "generic": false
+    },
+    {
+     "key": "profile_picture_url",
+     "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/fbaf1437-29c9-5d43-95c6-74b34954559f?rule=pp-small",
+     "values": [
+      "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/fbaf1437-29c9-5d43-95c6-74b34954559f?rule=pp-small"
+     ],
+     "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/fbaf1437-29c9-5d43-95c6-74b34954559f?rule=pp-small",
+     "generic": false
+    },
+    {
+     "key": "estimated_parcel_weight",
+     "value": "2954",
+     "values": [
+      "2954"
+     ],
+     "value_label": "2954",
+     "generic": false
+    },
+    {
+     "key": "estimated_parcel_size",
+     "value": "M",
+     "values": [
+      "M"
+     ],
+     "value_label": "M",
+     "generic": false
+    },
+    {
+     "key": "is_bundleable",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "purchase_cta_visible",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "negotiation_cta_visible",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "country_isocode3166",
+     "value": "FR",
+     "values": [
+      "FR"
+     ],
+     "value_label": "FR",
+     "generic": false
+    },
+    {
+     "key": "condition",
+     "value": "bonetat",
+     "values": [
+      "bonetat"
+     ],
+     "key_label": "État",
+     "value_label": "Bon état",
+     "generic": true
+    },
+    {
+     "key": "computer_accessories_product",
+     "value": "graphiccard",
+     "values": [
+      "graphiccard"
+     ],
+     "key_label": "Produit",
+     "value_label": "Carte graphique",
+     "generic": true
+    },
+    {
+     "key": "computer_accessories_brand",
+     "value": "nvidia",
+     "values": [
+      "nvidia"
+     ],
+     "key_label": "Marques",
+     "value_label": "NVIDIA",
+     "value_label_reader": "N.VIDIA",
+     "generic": true
+    },
+    {
+     "key": "shipping_type",
+     "value": "face_to_face",
+     "values": [
+      "face_to_face"
+     ],
+     "value_label": "face_to_face",
+     "generic": false
+    },
+    {
+     "key": "shippable",
+     "value": "false",
+     "values": [
+      "false"
+     ],
+     "value_label": "false",
+     "generic": false
+    },
+    {
+     "key": "is_import",
+     "value": "false",
+     "values": [
+      "false"
+     ],
+     "value_label": "false",
+     "generic": false
+    },
+    {
+     "key": "payment_methods",
+     "value": "installments3x",
+     "values": [
+      "installments3x",
+      "installments4x"
+     ],
+     "value_label": "installments3x",
+     "generic": false
+    }
+   ],
+   "location": {
+    "country_id": "FR",
+    "region_id": "12",
+    "region_name": "Ile-de-France",
+    "department_id": "94",
+    "department_name": "Val-de-Marne",
+    "city_label": "Sucy-en-Brie 94370",
+    "city": "Sucy-en-Brie",
+    "zipcode": "94370",
+    "lat": 48.771,
+    "lng": 2.52,
+    "source": "city",
+    "provider": "here",
+    "type": "",
+    "origin_type": "",
+    "is_shape": true,
+    "feature": {
+     "type": "Feature",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       2.52046,
+       48.7716
+      ]
+     },
+     "properties": null
+    }
+   },
+   "owner": {
+    "store_id": "23159180",
+    "user_id": "8a44d40a-567d-42eb-b4f4-ecad73392c01",
+    "type": "private",
+    "name": "Nicolas",
+    "no_salesmen": true,
+    "activity_sector": ""
+   },
+   "options": {
+    "has_option": false,
+    "booster": false,
+    "photosup": false,
+    "urgent": false,
+    "gallery": false,
+    "sub_toplist": false,
+    "continuous_top_ads": false,
+    "highlight": false
+   },
+   "has_phone": false,
+   "similar": null,
+   "counters": {},
+   "buyer_fee": {
+    "amount": 199
+   }
+  },
+  {
+   "list_id": 3302761853,
+   "first_publication_date": "2026-11-05 14:38:29",
+   "index_date": "2026-11-05 14:38:29",
+   "status": "active",
+   "category_id": "83",
+   "category_name": "Accessoires informatique",
+   "subject": "Palit rtx 3090",
+   "body": "",
+   "brand": "leboncoin",
+   "ad_type": "offer",
+   "url": "https://www.leboncoin.fr/ad/accessoires_informatique/3302761853",
+   "price": [
+    855
+   ],
+   "price_cents": 85500,
+   "images": {
+    "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/fe/27/53/fe2753cc959cd7b711dbf86890fcdd6a367d52a2.jpg?rule=ad-thumb",
+    "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/fe/27/53/fe2753cc959cd7b711dbf86890fcdd6a367d52a2.jpg?rule=ad-small",
+    "nb_images": 6,
+    "urls": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/fe/27/53/fe2753cc959cd7b711dbf86890fcdd6a367d52a2.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/33/9c/5d/339c5deb5e796d83ceb40b35daa255d179e77026.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/dd/4c/b6/dd4cb652db6bbabfbe8414820ea0fd0717ac71ba.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/57/ef/8a/57ef8aa11b10dfd824b38726133d61067655d3f3.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/05/2b/b0/052bb0076cf9b9fd86c9f64dff575421ac87b46f.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/8b/9c/aa/8b9caa2fc6ffa284c497dd6bc1187e04e74f0817.jpg?rule=ad-image"
+    ],
+    "urls_thumb": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/fe/27/53/fe2753cc959cd7b711dbf86890fcdd6a367d52a2.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/33/9c/5d/339c5deb5e796d83ceb40b35daa255d179e77026.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/dd/4c/b6/dd4cb652db6bbabfbe8414820ea0fd0717ac71ba.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/57/ef/8a/57ef8aa11b10dfd824b38726133d61067655d3f3.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/05/2b/b0/052bb0076cf9b9fd86c9f64dff575421ac87b46f.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/8b/9c/aa/8b9caa2fc6ffa284c497dd6bc1187e04e74f0817.jpg?rule=ad-thumb"
+    ],
+    "urls_large": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/fe/27/53/fe2753cc959cd7b711dbf86890fcdd6a367d52a2.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/33/9c/5d/339c5deb5e796d83ceb40b35daa255d179e77026.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/dd/4c/b6/dd4cb652db6bbabfbe8414820ea0fd0717ac71ba.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/57/ef/8a/57ef8aa11b10dfd824b38726133d61067655d3f3.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/05/2b/b0/052bb0076cf9b9fd86c9f64dff575421ac87b46f.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/8b/9c/aa/8b9caa2fc6ffa284c497dd6bc1187e04e74f0817.jpg?rule=ad-large"
+    ]
+   },
+   "attributes": [
+    {
+     "key": "profile_picture_url",
+     "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/0e45fa87-c26e-51d4-b10a-d0322254e0e5?rule=pp-small",
+     "values": [
+      "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/0e45fa87-c26e-51d4-b10a-d0322254e0e5?rule=pp-small"
+     ],
+     "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/0e45fa87-c26e-51d4-b10a-d0322254e0e5?rule=pp-small",
+     "generic": false
+    },
+    {
+     "key": "estimated_parcel_weight",
+     "value": "2105",
+     "values": [
+      "2105"
+     ],
+     "value_label": "2105",
+     "generic": false
+    },
+    {
+     "key": "estimated_parcel_size",
+     "value": "M",
+     "values": [
+      "M"
+     ],
+     "value_label": "M",
+     "generic": false
+    },
+    {
+     "key": "country_isocode3166",
+     "value": "FR",
+     "values": [
+      "FR"
+     ],
+     "value_label": "FR",
+     "generic": false
+    },
+    {
+     "key": "condition",
+     "value": "tresbonetat",
+     "values": [
+      "tresbonetat"
+     ],
+     "key_label": "État",
+     "value_label": "Très bon état",
+     "generic": true
+    },
+    {
+     "key": "computer_accessories_product",
+     "value": "graphiccard",
+     "values": [
+      "graphiccard"
+     ],
+     "key_label": "Produit",
+     "value_label": "Carte graphique",
+     "generic": true
+    },
+    {
+     "key": "computer_accessories_brand",
+     "value": "nvidia",
+     "values": [
+      "nvidia"
+     ],
+     "key_label": "Marques",
+     "value_label": "NVIDIA",
+     "value_label_reader": "N.VIDIA",
+     "generic": true
+    },
+    {
+     "key": "shipping_type",
+     "value": "mondial_relay",
+     "values": [
+      "mondial_relay",
+      "shop2shop",
+      "face_to_face"
+     ],
+     "value_label": "mondial_relay",
+     "generic": false
+    },
+    {
+     "key": "shippable",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "is_import",
+     "value": "false",
+     "values": [
+      "false"
+     ],
+     "value_label": "false",
+     "generic": false
+    },
+    {
+     "key": "payment_methods",
+     "value": "installments3x",
+     "values": [
+      "installments3x",
+      "installments4x"
+     ],
+     "value_label": "installments3x",
+     "generic": false
+    }
+   ],
+   "location": {
+    "country_id": "FR",
+    "region_id": "17",
+    "region_name": "Nord-Pas-de-Calais",
+    "department_id": "62",
+    "department_name": "Pas-de-Calais",
+    "city_label": "Rang-du-Fliers 62180",
+    "city": "Rang-du-Fliers",
+    "zipcode": "62180",
+    "lat": 50.417,
+    "lng": 1.643,
+    "source": "city",
+    "provider": "here",
+    "type": "",
+    "origin_type": "",
+    "is_shape": true,
+    "feature": {
+     "type": "Feature",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       1.64398,
+       50.41727
+      ]
+     },
+     "properties": null
+    }
+   },
+   "owner": {
+    "store_id": "62461722",
+    "user_id": "41f19e1f-81d6-4c9c-aa53-3c5e3a3e0974",
+    "type": "private",
+    "name": "Bertrand Mathis",
+    "no_salesmen": true,
+    "activity_sector": ""
+   },
+   "options": {
+    "has_option": false,
+    "booster": false,
+    "photosup": false,
+    "urgent": false,
+    "gallery": false,
+    "sub_toplist": false,
+    "continuous_top_ads": false,
+    "highlight": false
+   },
+   "has_phone": false,
+   "similar": null,
+   "counters": {},
+   "buyer_fee": {
+    "amount": 199
+   },
+   "shipping_fees": [
+    {
+     "shipping_type": "mondial_relay",
+     "price": 749
+    },
+    {
+     "shipping_type": "shop2shop",
+     "price": 749
+    }
+   ]
+  },
+  {
+   "list_id": 3301834572,
+   "first_publication_date": "2026-11-03 20:49:23",
+   "index_date": "2026-11-03 20:49:23",
+   "status": "active",
+   "category_id": "83",
+   "category_name": "Accessoires informatique",
+   "subject": "Gpu watercooler geforce rtx 3090",
+   "body": "",
+   "brand": "leboncoin",
+   "ad_type": "offer",
+   "url": "https://www.leboncoin.fr/ad/accessoires_informatique/3301834572",
+   "price": [
+    140
+   ],
+   "price_cents": 14000,
+   "images": {
+    "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/1c/cf/f2/1ccff28c89e48db641105845145a6ad3ddc52f4c.jpg?rule=ad-thumb",
+    "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/1c/cf/f2/1ccff28c89e48db641105845145a6ad3ddc52f4c.jpg?rule=ad-small",
+    "nb_images": 4,
+    "urls": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/1c/cf/f2/1ccff28c89e48db641105845145a6ad3ddc52f4c.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/7d/1c/43/7d1c436b480d8257cb352f953b7a02ffbe760829.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/83/78/72/83787204c8d40c4dd040193ce0fa41adbcc1da48.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/38/3b/45/383b451f72c9e789610ea5bf9e5230c8c0aec998.jpg?rule=ad-image"
+    ],
+    "urls_thumb": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/1c/cf/f2/1ccff28c89e48db641105845145a6ad3ddc52f4c.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/7d/1c/43/7d1c436b480d8257cb352f953b7a02ffbe760829.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/83/78/72/83787204c8d40c4dd040193ce0fa41adbcc1da48.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/38/3b/45/383b451f72c9e789610ea5bf9e5230c8c0aec998.jpg?rule=ad-thumb"
+    ],
+    "urls_large": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/1c/cf/f2/1ccff28c89e48db641105845145a6ad3ddc52f4c.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/7d/1c/43/7d1c436b480d8257cb352f953b7a02ffbe760829.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/83/78/72/83787204c8d40c4dd040193ce0fa41adbcc1da48.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/38/3b/45/383b451f72c9e789610ea5bf9e5230c8c0aec998.jpg?rule=ad-large"
+    ]
+   },
+   "attributes": [
+    {
+     "key": "rating_score",
+     "value": "1",
+     "values": [
+      "1"
+     ],
+     "value_label": "1",
+     "generic": false
+    },
+    {
+     "key": "rating_count",
+     "value": "1",
+     "values": [
+      "1"
+     ],
+     "value_label": "1",
+     "generic": false
+    },
+    {
+     "key": "profile_picture_url",
+     "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/ce8b8a5b-8edc-54ab-95f4-14ab57f46217?rule=pp-small",
+     "values": [
+      "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/ce8b8a5b-8edc-54ab-95f4-14ab57f46217?rule=pp-small"
+     ],
+     "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/ce8b8a5b-8edc-54ab-95f4-14ab57f46217?rule=pp-small",
+     "generic": false
+    },
+    {
+     "key": "estimated_parcel_weight",
+     "value": "5000",
+     "values": [
+      "5000"
+     ],
+     "value_label": "5000",
+     "generic": false
+    },
+    {
+     "key": "estimated_parcel_size",
+     "value": "M",
+     "values": [
+      "M"
+     ],
+     "value_label": "M",
+     "generic": false
+    },
+    {
+     "key": "is_bundleable",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "purchase_cta_visible",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "negotiation_cta_visible",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "country_isocode3166",
+     "value": "FR",
+     "values": [
+      "FR"
+     ],
+     "value_label": "FR",
+     "generic": false
+    },
+    {
+     "key": "condition",
+     "value": "tresbonetat",
+     "values": [
+      "tresbonetat"
+     ],
+     "key_label": "État",
+     "value_label": "Très bon état",
+     "generic": true
+    },
+    {
+     "key": "computer_accessories_product",
+     "value": "cooler",
+     "values": [
+      "cooler"
+     ],
+     "key_label": "Produit",
+     "value_label": "Refroidisseur et ventilateur",
+     "generic": true
+    },
+    {
+     "key": "computer_accessories_brand",
+     "value": "nvidia",
+     "values": [
+      "nvidia"
+     ],
+     "key_label": "Marques",
+     "value_label": "NVIDIA",
+     "value_label_reader": "N.VIDIA",
+     "generic": true
+    },
+    {
+     "key": "shipping_type",
+     "value": "face_to_face",
+     "values": [
+      "face_to_face"
+     ],
+     "value_label": "face_to_face",
+     "generic": false
+    },
+    {
+     "key": "shippable",
+     "value": "false",
+     "values": [
+      "false"
+     ],
+     "value_label": "false",
+     "generic": false
+    },
+    {
+     "key": "is_import",
+     "value": "false",
+     "values": [
+      "false"
+     ],
+     "value_label": "false",
+     "generic": false
+    }
+   ],
+   "location": {
+    "country_id": "FR",
+    "region_id": "14",
+    "region_name": "Limousin",
+    "department_id": "87",
+    "department_name": "Haute-Vienne",
+    "city_label": "Le Palais-sur-Vienne 87410",
+    "city": "Le Palais-sur-Vienne",
+    "zipcode": "87410",
+    "lat": 45.862,
+    "lng": 1.323,
+    "source": "city",
+    "provider": "here",
+    "type": "",
+    "origin_type": "",
+    "is_shape": true,
+    "feature": {
+     "type": "Feature",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       1.32311,
+       45.86282
+      ]
+     },
+     "properties": null
+    }
+   },
+   "owner": {
+    "store_id": "625669",
+    "user_id": "f7f4ed7a-f7c2-41a8-82f9-84376b99cc8a",
+    "type": "private",
+    "name": "Caroline",
+    "no_salesmen": true,
+    "activity_sector": ""
+   },
+   "options": {
+    "has_option": false,
+    "booster": false,
+    "photosup": false,
+    "urgent": false,
+    "gallery": false,
+    "sub_toplist": false,
+    "continuous_top_ads": false,
+    "highlight": false
+   },
+   "has_phone": false,
+   "similar": null,
+   "counters": {},
+   "buyer_fee": {
+    "amount": 199
+   }
+  },
+  {
+   "list_id": 3291740644,
+   "first_publication_date": "2026-10-20 10:43:44",
+   "index_date": "2026-10-20 10:43:44",
+   "status": "active",
+   "category_id": "83",
+   "category_name": "Accessoires informatique",
+   "subject": "RTX 3090 FE 24gb",
+   "body": "",
+   "brand": "leboncoin",
+   "ad_type": "offer",
+   "url": "https://www.leboncoin.fr/ad/accessoires_informatique/3291740644",
+   "price": [
+    1300
+   ],
+   "price_cents": 130000,
+   "images": {
+    "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/0e/b3/1d0eb3c6d7e3541855bf1464c67d2f5806572fe2.jpg?rule=ad-thumb",
+    "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/0e/b3/1d0eb3c6d7e3541855bf1464c67d2f5806572fe2.jpg?rule=ad-small",
+    "nb_images": 3,
+    "urls": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/0e/b3/1d0eb3c6d7e3541855bf1464c67d2f5806572fe2.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/cc/17/10/cc171092ba9b8132d24672cc9092a3d6c3c55f52.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/bf/ea/af/bfeaaff1d093429eba673a86d67e375934871054.jpg?rule=ad-image"
+    ],
+    "urls_thumb": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/0e/b3/1d0eb3c6d7e3541855bf1464c67d2f5806572fe2.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/cc/17/10/cc171092ba9b8132d24672cc9092a3d6c3c55f52.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/bf/ea/af/bfeaaff1d093429eba673a86d67e375934871054.jpg?rule=ad-thumb"
+    ],
+    "urls_large": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/0e/b3/1d0eb3c6d7e3541855bf1464c67d2f5806572fe2.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/cc/17/10/cc171092ba9b8132d24672cc9092a3d6c3c55f52.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/bf/ea/af/bfeaaff1d093429eba673a86d67e375934871054.jpg?rule=ad-large"
+    ]
+   },
+   "attributes": [
+    {
+     "key": "rating_score",
+     "value": "0.96",
+     "values": [
+      "0.96"
+     ],
+     "value_label": "0.96",
+     "generic": false
+    },
+    {
+     "key": "rating_count",
+     "value": "110",
+     "values": [
+      "110"
+     ],
+     "value_label": "110",
+     "generic": false
+    },
+    {
+     "key": "profile_picture_url",
+     "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/b88410de-ee2a-5f8d-8b19-0a6955cc8d89?rule=pp-small",
+     "values": [
+      "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/b88410de-ee2a-5f8d-8b19-0a6955cc8d89?rule=pp-small"
+     ],
+     "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/b88410de-ee2a-5f8d-8b19-0a6955cc8d89?rule=pp-small",
+     "generic": false
+    },
+    {
+     "key": "estimated_parcel_weight",
+     "value": "3178",
+     "values": [
+      "3178"
+     ],
+     "value_label": "3178",
+     "generic": false
+    },
+    {
+     "key": "estimated_parcel_size",
+     "value": "M",
+     "values": [
+      "M"
+     ],
+     "value_label": "M",
+     "generic": false
+    },
+    {
+     "key": "is_bundleable",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "purchase_cta_visible",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "negotiation_cta_visible",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "country_isocode3166",
+     "value": "FR",
+     "values": [
+      "FR"
+     ],
+     "value_label": "FR",
+     "generic": false
+    },
+    {
+     "key": "condition",
+     "value": "tresbonetat",
+     "values": [
+      "tresbonetat"
+     ],
+     "key_label": "État",
+     "value_label": "Très bon état",
+     "generic": true
+    },
+    {
+     "key": "computer_accessories_product",
+     "value": "graphiccard",
+     "values": [
+      "graphiccard"
+     ],
+     "key_label": "Produit",
+     "value_label": "Carte graphique",
+     "generic": true
+    },
+    {
+     "key": "computer_accessories_brand",
+     "value": "nvidia",
+     "values": [
+      "nvidia"
+     ],
+     "key_label": "Marques",
+     "value_label": "NVIDIA",
+     "value_label_reader": "N.VIDIA",
+     "generic": true
+    },
+    {
+     "key": "shipping_type",
+     "value": "face_to_face",
+     "values": [
+      "face_to_face"
+     ],
+     "value_label": "face_to_face",
+     "generic": false
+    },
+    {
+     "key": "shippable",
+     "value": "false",
+     "values": [
+      "false"
+     ],
+     "value_label": "false",
+     "generic": false
+    },
+    {
+     "key": "is_import",
+     "value": "false",
+     "values": [
+      "false"
+     ],
+     "value_label": "false",
+     "generic": false
+    },
+    {
+     "key": "payment_methods",
+     "value": "installments3x",
+     "values": [
+      "installments3x",
+      "installments4x"
+     ],
+     "value_label": "installments3x",
+     "generic": false
+    }
+   ],
+   "location": {
+    "country_id": "FR",
+    "region_id": "12",
+    "region_name": "Ile-de-France",
+    "department_id": "92",
+    "department_name": "Hauts-de-Seine",
+    "city_label": "Clamart 92140",
+    "city": "Clamart",
+    "zipcode": "92140",
+    "lat": 48.799,
+    "lng": 2.263,
+    "source": "city",
+    "provider": "here",
+    "type": "",
+    "origin_type": "",
+    "is_shape": true,
+    "feature": {
+     "type": "Feature",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       2.26311,
+       48.7999
+      ]
+     },
+     "properties": null
+    }
+   },
+   "owner": {
+    "store_id": "46347388",
+    "user_id": "de718faa-c11b-4e33-927a-24a92b45f5d9",
+    "type": "private",
+    "name": "Skyline",
+    "no_salesmen": true,
+    "activity_sector": ""
+   },
+   "options": {
+    "has_option": false,
+    "booster": false,
+    "photosup": false,
+    "urgent": false,
+    "gallery": false,
+    "sub_toplist": false,
+    "continuous_top_ads": false,
+    "highlight": false
+   },
+   "has_phone": false,
+   "similar": null,
+   "counters": {},
+   "buyer_fee": {
+    "amount": 199
+   }
+  },
+  {
+   "list_id": 3228554810,
+   "first_publication_date": "2026-07-06 15:48:28",
+   "index_date": "2026-10-21 23:14:07",
+   "status": "active",
+   "category_id": "83",
+   "category_name": "Accessoires informatique",
+   "subject": "RTX 3090 fe WATER BLOCK",
+   "body": "",
+   "brand": "leboncoin",
+   "ad_type": "offer",
+   "url": "https://www.leboncoin.fr/ad/accessoires_informatique/3228554810",
+   "price": [
+    2500
+   ],
+   "price_cents": 250000,
+   "images": {
+    "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/04/8f/ab/048fabe26dd3928680987e98381239f7727666ae.jpg?rule=ad-thumb",
+    "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/04/8f/ab/048fabe26dd3928680987e98381239f7727666ae.jpg?rule=ad-small",
+    "nb_images": 2,
+    "urls": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/04/8f/ab/048fabe26dd3928680987e98381239f7727666ae.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/95/75/f6/9575f62b625bcb5f34a79ffe31a42ef9b3c3419a.jpg?rule=ad-image"
+    ],
+    "urls_thumb": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/04/8f/ab/048fabe26dd3928680987e98381239f7727666ae.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/95/75/f6/9575f62b625bcb5f34a79ffe31a42ef9b3c3419a.jpg?rule=ad-thumb"
+    ],
+    "urls_large": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/04/8f/ab/048fabe26dd3928680987e98381239f7727666ae.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/95/75/f6/9575f62b625bcb5f34a79ffe31a42ef9b3c3419a.jpg?rule=ad-large"
+    ]
+   },
+   "attributes": [
+    {
+     "key": "rating_score",
+     "value": "1",
+     "values": [
+      "1"
+     ],
+     "value_label": "1",
+     "generic": false
+    },
+    {
+     "key": "rating_count",
+     "value": "1",
+     "values": [
+      "1"
+     ],
+     "value_label": "1",
+     "generic": false
+    },
+    {
+     "key": "profile_picture_url",
+     "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/c1938fd5-98b3-5afe-a5b3-b98a3865583a?rule=pp-small",
+     "values": [
+      "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/c1938fd5-98b3-5afe-a5b3-b98a3865583a?rule=pp-small"
+     ],
+     "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/c1938fd5-98b3-5afe-a5b3-b98a3865583a?rule=pp-small",
+     "generic": false
+    },
+    {
+     "key": "estimated_parcel_weight",
+     "value": "2400",
+     "values": [
+      "2400"
+     ],
+     "value_label": "2400",
+     "generic": false
+    },
+    {
+     "key": "estimated_parcel_size",
+     "value": "M",
+     "values": [
+      "M"
+     ],
+     "value_label": "M",
+     "generic": false
+    },
+    {
+     "key": "is_bundleable",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "purchase_cta_visible",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "negotiation_cta_visible",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "country_isocode3166",
+     "value": "FR",
+     "values": [
+      "FR"
+     ],
+     "value_label": "FR",
+     "generic": false
+    },
+    {
+     "key": "condition",
+     "value": "tresbonetat",
+     "values": [
+      "tresbonetat"
+     ],
+     "key_label": "État",
+     "value_label": "Très bon état",
+     "generic": true
+    },
+    {
+     "key": "computer_accessories_product",
+     "value": "graphiccard",
+     "values": [
+      "graphiccard"
+     ],
+     "key_label": "Produit",
+     "value_label": "Carte graphique",
+     "generic": true
+    },
+    {
+     "key": "computer_accessories_brand",
+     "value": "nvidia",
+     "values": [
+      "nvidia"
+     ],
+     "key_label": "Marques",
+     "value_label": "NVIDIA",
+     "value_label_reader": "N.VIDIA",
+     "generic": true
+    },
+    {
+     "key": "shipping_type",
+     "value": "face_to_face",
+     "values": [
+      "face_to_face"
+     ],
+     "value_label": "face_to_face",
+     "generic": false
+    },
+    {
+     "key": "shippable",
+     "value": "false",
+     "values": [
+      "false"
+     ],
+     "value_label": "false",
+     "generic": false
+    },
+    {
+     "key": "is_import",
+     "value": "false",
+     "values": [
+      "false"
+     ],
+     "value_label": "false",
+     "generic": false
+    }
+   ],
+   "location": {
+    "country_id": "FR",
+    "region_id": "21",
+    "region_name": "Provence-Alpes-Côte d'Azur",
+    "department_id": "13",
+    "department_name": "Bouches-du-Rhône",
+    "city_label": "Marseille 13012",
+    "city": "Marseille",
+    "zipcode": "13012",
+    "lat": 43.305,
+    "lng": 5.416,
+    "source": "city",
+    "provider": "here",
+    "type": "",
+    "origin_type": "",
+    "is_shape": true,
+    "feature": {
+     "type": "Feature",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       5.41643,
+       43.30509
+      ]
+     },
+     "properties": null
+    }
+   },
+   "owner": {
+    "store_id": "66218599",
+    "user_id": "1e0f3acb-190d-4f1d-a63b-3989eaf97dcb",
+    "type": "private",
+    "name": "Lipoax",
+    "no_salesmen": true,
+    "activity_sector": ""
+   },
+   "options": {
+    "has_option": false,
+    "booster": false,
+    "photosup": false,
+    "urgent": false,
+    "gallery": false,
+    "sub_toplist": false,
+    "continuous_top_ads": false,
+    "highlight": false
+   },
+   "has_phone": false,
+   "similar": null,
+   "counters": {},
+   "buyer_fee": {
+    "amount": 199
+   }
+  },
+  {
+   "list_id": 3302882753,
+   "first_publication_date": "2026-11-05 17:32:50",
+   "index_date": "2026-11-05 17:32:50",
+   "status": "active",
+   "category_id": "83",
+   "category_name": "Accessoires informatique",
+   "subject": "Carte graphique rtx 3090 zotacgaming",
+   "body": "",
+   "brand": "leboncoin",
+   "ad_type": "offer",
+   "url": "https://www.leboncoin.fr/ad/accessoires_informatique/3302882753",
+   "price": [
+    1350
+   ],
+   "price_cents": 135000,
+   "images": {
+    "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/b0/b6/13/b0b613e44807f6bc7609125ba6c3b12adc7530da.jpg?rule=ad-thumb",
+    "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/b0/b6/13/b0b613e44807f6bc7609125ba6c3b12adc7530da.jpg?rule=ad-small",
+    "nb_images": 7,
+    "urls": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/b0/b6/13/b0b613e44807f6bc7609125ba6c3b12adc7530da.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/04/3f/02/043f02360d1aa0626bb1fd483e263bf18eddbef5.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/a9/57/7c/a9577cab1b11468ed9ad0bd7ceaee53042c46f13.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/19/9b/ca/199bca491511ebf69320d40c4e4b84176f59dee9.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/28/a8/11/28a8111dd560c0688851e77d2a123ef221a1302e.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/27/8b/db/278bdb22abc997ab898ebdf0c8ae3e4a4a0bb0b9.jpg?rule=ad-image",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/0a/3f/a3/0a3fa35768f811b229ba2d6df524b7e41070c07c.jpg?rule=ad-image"
+    ],
+    "urls_thumb": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/b0/b6/13/b0b613e44807f6bc7609125ba6c3b12adc7530da.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/04/3f/02/043f02360d1aa0626bb1fd483e263bf18eddbef5.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/a9/57/7c/a9577cab1b11468ed9ad0bd7ceaee53042c46f13.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/19/9b/ca/199bca491511ebf69320d40c4e4b84176f59dee9.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/28/a8/11/28a8111dd560c0688851e77d2a123ef221a1302e.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/27/8b/db/278bdb22abc997ab898ebdf0c8ae3e4a4a0bb0b9.jpg?rule=ad-thumb",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/0a/3f/a3/0a3fa35768f811b229ba2d6df524b7e41070c07c.jpg?rule=ad-thumb"
+    ],
+    "urls_large": [
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/b0/b6/13/b0b613e44807f6bc7609125ba6c3b12adc7530da.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/04/3f/02/043f02360d1aa0626bb1fd483e263bf18eddbef5.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/a9/57/7c/a9577cab1b11468ed9ad0bd7ceaee53042c46f13.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/19/9b/ca/199bca491511ebf69320d40c4e4b84176f59dee9.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/28/a8/11/28a8111dd560c0688851e77d2a123ef221a1302e.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/27/8b/db/278bdb22abc997ab898ebdf0c8ae3e4a4a0bb0b9.jpg?rule=ad-large",
+     "https://img.leboncoin.fr/api/v1/lbcpb1/images/0a/3f/a3/0a3fa35768f811b229ba2d6df524b7e41070c07c.jpg?rule=ad-large"
+    ]
+   },
+   "attributes": [
+    {
+     "key": "rating_score",
+     "value": "1",
+     "values": [
+      "1"
+     ],
+     "value_label": "1",
+     "generic": false
+    },
+    {
+     "key": "rating_count",
+     "value": "287",
+     "values": [
+      "287"
+     ],
+     "value_label": "287",
+     "generic": false
+    },
+    {
+     "key": "profile_picture_url",
+     "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/99ee08f8-6a88-58d8-b3ca-7178dcd7d78d?rule=pp-small",
+     "values": [
+      "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/99ee08f8-6a88-58d8-b3ca-7178dcd7d78d?rule=pp-small"
+     ],
+     "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/99ee08f8-6a88-58d8-b3ca-7178dcd7d78d?rule=pp-small",
+     "generic": false
+    },
+    {
+     "key": "estimated_parcel_weight",
+     "value": "5000",
+     "values": [
+      "5000"
+     ],
+     "value_label": "5000",
+     "generic": false
+    },
+    {
+     "key": "estimated_parcel_size",
+     "value": "M",
+     "values": [
+      "M"
+     ],
+     "value_label": "M",
+     "generic": false
+    },
+    {
+     "key": "is_bundleable",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "purchase_cta_visible",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "negotiation_cta_visible",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "country_isocode3166",
+     "value": "FR",
+     "values": [
+      "FR"
+     ],
+     "value_label": "FR",
+     "generic": false
+    },
+    {
+     "key": "condition",
+     "value": "tresbonetat",
+     "values": [
+      "tresbonetat"
+     ],
+     "key_label": "État",
+     "value_label": "Très bon état",
+     "generic": true
+    },
+    {
+     "key": "computer_accessories_product",
+     "value": "graphiccard",
+     "values": [
+      "graphiccard"
+     ],
+     "key_label": "Produit",
+     "value_label": "Carte graphique",
+     "generic": true
+    },
+    {
+     "key": "computer_accessories_brand",
+     "value": "nvidia",
+     "values": [
+      "nvidia"
+     ],
+     "key_label": "Marques",
+     "value_label": "NVIDIA",
+     "value_label_reader": "N.VIDIA",
+     "generic": true
+    },
+    {
+     "key": "shipping_type",
+     "value": "mondial_relay",
+     "values": [
+      "mondial_relay",
+      "shop2shop",
+      "face_to_face"
+     ],
+     "value_label": "mondial_relay",
+     "generic": false
+    },
+    {
+     "key": "shippable",
+     "value": "true",
+     "values": [
+      "true"
+     ],
+     "value_label": "true",
+     "generic": false
+    },
+    {
+     "key": "is_import",
+     "value": "false",
+     "values": [
+      "false"
+     ],
+     "value_label": "false",
+     "generic": false
+    },
+    {
+     "key": "payment_methods",
+     "value": "installments3x",
+     "values": [
+      "installments3x",
+      "installments4x"
+     ],
+     "value_label": "installments3x",
+     "generic": false
+    }
+   ],
+   "location": {
+    "country_id": "FR",
+    "region_id": "17",
+    "region_name": "Nord-Pas-de-Calais",
+    "department_id": "62",
+    "department_name": "Pas-de-Calais",
+    "city_label": "Cambrin 62149",
+    "city": "Cambrin",
+    "zipcode": "62149",
+    "lat": 50.512,
+    "lng": 2.747,
+    "source": "city",
+    "provider": "here",
+    "type": "",
+    "origin_type": "",
+    "is_shape": true,
+    "feature": {
+     "type": "Feature",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       2.74718,
+       50.51265
+      ]
+     },
+     "properties": null
+    }
+   },
+   "owner": {
+    "store_id": "44942763",
+    "user_id": "251e4f71-ffd9-4a53-bf8f-2a00e5f2f669",
+    "type": "private",
+    "name": "tony",
+    "no_salesmen": true,
+    "activity_sector": ""
+   },
+   "options": {
+    "has_option": false,
+    "booster": false,
+    "photosup": false,
+    "urgent": false,
+    "gallery": false,
+    "sub_toplist": false,
+    "continuous_top_ads": false,
+    "highlight": false
+   },
+   "has_phone": false,
+   "similar": null,
+   "counters": {},
+   "buyer_fee": {
+    "amount": 199
+   },
+   "shipping_fees": [
+    {
+     "shipping_type": "mondial_relay",
+     "price": 749
+    },
+    {
+     "shipping_type": "shop2shop",
+     "price": 749
+    }
+   ]
+  }
+ ]
+}

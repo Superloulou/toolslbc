@@ -1,0 +1,589 @@
+{
+  "ad_type": "offer",
+  "list_id": 3301914762,
+  "params_id": "c17e017e-0000-0000-0000-000000000000",
+  "subject": "RTX 3090 24 Go Founders Edition",
+  "body": "Carte graphique NVIDIA RTX 3090 24 Go, fonctionne parfaitement, vendue en l'état. Boîte d'origine. Paiement en main propre uniquement.",
+  "category_id": 83,
+  "category_main_id": 15,
+  "category_name": "Accessoires informatique",
+  "category_leaf_id": 0,
+  "min_price": 620,
+  "max_price": 620,
+  "price": [
+    620
+  ],
+  "price_cents": 62000,
+  "currency": "EUR",
+  "url": "https://www.leboncoin.fr/ad/accessoires-informatique/3301914762",
+  "status": "active",
+  "first_publication_date": "2026-11-06 12:41:46",
+  "index_date": "2026-11-06 12:41:46",
+  "expiration_date": "2027-01-05 12:41:46",
+  "creation_date": "2026-11-06 12:41:46",
+  "location": {
+    "city": "Lyon",
+    "city_label": "69003 Lyon",
+    "zipcode": "69003",
+    "department_id": "69",
+    "department_name": "Rhône",
+    "region_id": "84",
+    "region_name": "Auvergne-Rhône-Alpes",
+    "country_id": "fr",
+    "lat": 45.748,
+    "lng": 4.856
+  },
+  "owner": {
+    "store_id": 1234567,
+    "user_id": "e6f797c9-1111-2222-3333-444444444444",
+    "type": "private",
+    "name": "Pierre",
+    "note": 0,
+    "is_seller": true
+  },
+  "images": {
+    "thumb_url": "https://img.leboncoin.fr/api/v1/lbctb/bmljPWImdD0wJj11Jnc9MTAwJmg9MTAwJm89Q2Q0Q2Q0QyZpbT1qcGVnJnJhdz1mYWxzZSZxcz0wJnVybD1odHRwcyUzQSUyRiUyRnMubGVjb2luZnIlMkZwaWNzJTJGYS5qcGVn",
+    "small_url": "https://img.leboncoin.fr/api/v1/lbctb/x",
+    "urls_large": [
+      "https://img.leboncoin.fr/api/v1/lbclg/x"
+    ]
+  },
+  "counters": {
+    "adview": 128,
+    "visite": 40,
+    "contact": 3,
+    "favorite": 7
+  },
+  "options": {
+    "has_ship": false,
+    "is_ship_not_supported": true,
+    "has_bought_protection": false
+  },
+  "attributes": [
+    {
+      "category_id": 83,
+      "key": "condition",
+      "value": "used",
+      "value_label": "Occasion",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "brand",
+      "value": "nvidia",
+      "value_label": "Nvidia",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "model",
+      "value": "rtx 3090",
+      "value_label": "RTX 3090",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "computer_accessories_product",
+      "value": "graphic_card",
+      "value_label": "Carte graphique",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "is_import",
+      "value": "true",
+      "value_label": "true",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "shippable",
+      "value": "false",
+      "value_label": "false",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "shipping_type",
+      "value": "unitaire",
+      "value_label": "Unitaire",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "estimated_parcel_weight",
+      "value": "2",
+      "value_label": "2",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "purchase_cta_visible",
+      "value": "false",
+      "value_label": "false",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "district_code",
+      "value": "69D",
+      "value_label": "69D",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "district_name",
+      "value": "Rhône",
+      "value_label": "Rhône",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "external_ad_id",
+      "value": "ABC123",
+      "value_label": "ABC123",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "custom_ref",
+      "value": "REF-9",
+      "value_label": "REF-9",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "ean",
+      "value": "5099206087510",
+      "value_label": "5099206087510",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "rating_score",
+      "value": "0.99",
+      "value_label": "0.99",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "rating_count",
+      "value": "418",
+      "value_label": "418",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "spare_parts_availability",
+      "value": "12",
+      "value_label": "12",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "is_eligible_to_warranty",
+      "value": "false",
+      "value_label": "false",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "ad_warranty_type",
+      "value": "none",
+      "value_label": "Aucune",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "stock_quantity",
+      "value": "1",
+      "value_label": "1",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "payment_methods",
+      "value": "cash",
+      "value_label": "Espèces",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "donation",
+      "value": "false",
+      "value_label": "false",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "old_price",
+      "value": "700",
+      "value_label": "700",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "new_item_price",
+      "value": "1499",
+      "value_label": "1499",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "has_visibility_option",
+      "value": "false",
+      "value_label": "false",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "visibility_option_products",
+      "value": "none",
+      "value_label": "Aucune",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "negotiation_cta_visible",
+      "value": "true",
+      "value_label": "true",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "argus_object_id",
+      "value": "x",
+      "value_label": "x",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "online_store_id",
+      "value": "0",
+      "value_label": "0",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "store_name",
+      "value": "magasin",
+      "value_label": "magasin",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "store_logo",
+      "value": "https://img.leboncoin.fr/logo",
+      "value_label": "https://img.leboncoin.fr/logo",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "profile_picture_url",
+      "value": "https://img.leboncoin.fr/pp",
+      "value_label": "https://img.leboncoin.fr/pp",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "street_view_url",
+      "value": "https://maps",
+      "value_label": "https://maps",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "country_isocode3166",
+      "value": "FR",
+      "value_label": "France",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "mileage",
+      "value": "120000",
+      "value_label": "120000",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "fuel",
+      "value": "diesel",
+      "value_label": "Diesel",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "gearbox",
+      "value": "manual",
+      "value_label": "Manuelle",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "car_price_min",
+      "value": "10000",
+      "value_label": "10000",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "car_price_max",
+      "value": "20000",
+      "value_label": "20000",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "car_price_positioning",
+      "value": "fair",
+      "value_label": "Correct",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "recent_used_vehicle",
+      "value": "false",
+      "value_label": "false",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "critair",
+      "value": "2",
+      "value_label": "Crit'air 2",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "seats",
+      "value": "5",
+      "value_label": "5",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "horsepower",
+      "value": "120",
+      "value_label": "120",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "regdate",
+      "value": "2018-01-01",
+      "value_label": "01/2018",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "vehicle_history_report_visible",
+      "value": "false",
+      "value_label": "false",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "vehicle_technical_inspection_valid",
+      "value": "true",
+      "value_label": "true",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "vehicle_damage",
+      "value": "false",
+      "value_label": "false",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "vehicle_history",
+      "value": "none",
+      "value_label": "Aucun",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "vehicle_interior_specs",
+      "value": "clim",
+      "value_label": "Climatisation",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "immo_sell_type",
+      "value": "appartement",
+      "value_label": "Appartement",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "price_per_square_meter",
+      "value": "3000",
+      "value_label": "3000",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "estimated_notary_fees",
+      "value": "8000",
+      "value_label": "8000",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "annual_energy_budget_min",
+      "value": "500",
+      "value_label": "500",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "annual_energy_budget_max",
+      "value": "900",
+      "value_label": "900",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "rent_excluding_charges",
+      "value": "700",
+      "value_label": "700",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "lease_type",
+      "value": "vide",
+      "value_label": "Nue",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "nb_floors_building",
+      "value": "5",
+      "value_label": "5",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "square",
+      "value": "45",
+      "value_label": "45",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "rooms",
+      "value": "2",
+      "value_label": "2",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "bedrooms",
+      "value": "1",
+      "value_label": "1",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "energy_rate",
+      "value": "d",
+      "value_label": "D",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "ges",
+      "value": "b",
+      "value_label": "B",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "furnished",
+      "value": "false",
+      "value_label": "false",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "heating_type",
+      "value": "electric",
+      "value_label": "Électrique",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "cd_music_format",
+      "value": "cd",
+      "value_label": "CD",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "cd_music_style",
+      "value": "rock",
+      "value_label": "Rock",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "electronic_year",
+      "value": "2020",
+      "value_label": "2020",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "activity_sector",
+      "value": "informatique",
+      "value_label": "Informatique",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "computer_accessories_screen_size",
+      "value": "0",
+      "value_label": "0",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "u_car_brand",
+      "value": "renault",
+      "value_label": "Renault",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "u_car_model",
+      "value": "clio",
+      "value_label": "Clio",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "has_phone",
+      "value": "false",
+      "value_label": "false",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "similar",
+      "value": "false",
+      "value_label": "false",
+      "virtual_key": false
+    },
+    {
+      "category_id": 83,
+      "key": "brand_dup",
+      "value": "nvidia",
+      "value_label": "Nvidia",
+      "virtual_key": false
+    }
+  ]
+}

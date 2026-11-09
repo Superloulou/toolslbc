@@ -1,0 +1,60 @@
+# Configuration de leboncoin-alertes.
+# Copiez ce fichier en config.yml puis adaptez-le.
+
+# Intervalle entre deux tournées de recherches, en minutes.
+# Ne descendez pas sous 60 : Leboncoin protège le site avec DataDome et
+# bannit les IP trop curieuses. (La valeur minimale acceptée est 30.)
+poll_interval_min: 90
+
+# Aléa ajouté/retiré à l'intervalle (minutes) pour casser le rythme régulier.
+poll_jitter_min: 15
+
+# Chemin de la base SQLite (relatif = relatif à ce fichier).
+db_path: data/state.db
+
+scraper:
+  # Pause aléatoire entre chaque requête (secondes).
+  request_delay_min: 4.0
+  request_delay_max: 9.0
+  max_retries: 3
+  # Base de la montée en puissance après un blocage (minutes).
+  backoff_base_min: 45
+  # Empreinte TLS simulée par curl_cffi : chrome, safari, firefox...
+  impersonate: chrome
+  # Repli Playwright (pip install '.[playwright]') si la voie HTTP est bloquée.
+  playwright_fallback: true
+  # Récupère la fiche vendeur (note, taux de réponse, badges) pour les annonces
+  # nouvelles dont la note n'est pas déjà dans les résultats de recherche.
+  seller_lookup: true
+
+notify:
+  parse_mode: HTML
+  # true : prévenir aussi de toutes les annonces trouvées au tout premier tour.
+  notify_on_first_run: false
+
+# IMPORTANT : leboncoin ignore tout tri par date (sort_by est ignoré) et renvoie
+# les résultats triés par pertinence. Sur une recherche peu fournie (~60 annonces),
+# la page 1 est donc dominée par des annonces anciennes : si max_age_hours est trop
+# court, rien ne passe. Il faut couvrir toutes les pages ET élargir la fenêtre.
+searches:
+  - name: rtx 3090
+    text: rtx 3090
+    category: 83            # 83 = Accessoires informatique (cartes GPU, barrettes RAM)
+    price_min: 200
+    price_max: 800
+    max_age_hours: 336      # 14 jours : compatible avec un tri par pertinence
+    require: [rtx, 3090]    # tous ces mots doivent apparaître
+    exclude: [3060, 3070, 4090, j'achète]
+    seller_types: [private] # private | pro (laisser vide pour accepter les deux)
+    min_rating: 3.5         # note vendeur minimale sur 5 (vide = aucun filtre)
+    pages: 2                # ~63 annonces au total, 35 par page -> 2 pages
+
+  - name: ddr4 32go
+    text: ddr4 32go
+    category: 83
+    price_min: 30
+    price_max: 150
+    max_age_hours: 168      # 7 jours
+    require: [ddr4]
+    exclude: [ddr5, j'achète]
+    pages: 3                # ~290 annonces : 3 pages = 105 annonces analysées

@@ -1,0 +1,30 @@
+[project]
+name = "leboncoin-alertes"
+version = "0.1.0"
+description = "Veille d'annonces Leboncoin avec notifications Telegram"
+requires-python = ">=3.11"
+dependencies = [
+    "curl_cffi>=0.7",
+    "PyYAML>=6.0",
+    "python-dotenv>=1.0",
+    # Windows ne fournit pas la base IANA : indispensable pour Europe/Paris.
+    "tzdata>=2024.1; sys_platform == 'win32'",
+]
+
+[project.optional-dependencies]
+playwright = ["playwright>=1.44"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+lbc-alertes = "lbc_alertes.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

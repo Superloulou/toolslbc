@@ -1,0 +1,49 @@
+# Copie de config.example.yml — ajustez librement.
+
+poll_interval_min: 500
+poll_jitter_min: 15
+db_path: data/state.db
+
+scraper:
+  request_delay_min: 4.0
+  request_delay_max: 9.0
+  max_retries: 3
+  backoff_base_min: 45
+  impersonate: chrome
+  playwright_fallback: true
+  seller_lookup: true
+  # Les résultats de recherche ne contiennent jamais le texte de l'annonce :
+  # on ouvre la fiche de chaque annonce nouvelle (4 à 9 s par requête).
+  description_lookup: true
+  description_max: 25
+
+notify:
+  parse_mode: HTML
+  notify_on_first_run: false
+
+# NB : le site ignore tout tri par date (`sort_by` est ignoré) et renvoie les
+# résultats triés par pertinence. Une annonce récente peut donc se trouver
+# n'importe où dans la pagination : il faut augmenter `pages` (couverture) et
+# élargir `max_age_hours` plutôt que de compter sur la première page.
+
+searches:
+  - name: rtx 3090
+    text: rtx 3090
+    category: 83
+    price_min: 200
+    price_max: 800
+    max_age_hours: 336          # 14 j : les cartes rares sont rarement < 72 h
+    require: [rtx, 3090]
+    exclude: [3060, 3070, 4090, j'achète]   # écarte les annonces « recherche »
+    min_rating: 3.5
+    pages: 2                    # ~63 annonces au total => couverture complète
+
+  - name: ddr4 32go
+    text: ddr4 32go
+    category: 83
+    price_min: 30
+    price_max: 150
+    max_age_hours: 168          # 7 j
+    require: [ddr4]
+    exclude: [ddr5, j'achète]
+    pages: 3                    # 35 x 3 = 105 annonces sur ~287
